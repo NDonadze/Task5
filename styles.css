@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto" sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    color: black;
+    margin: 10px;
+}
+body{
+    background-color:#F7F7F7 ;
+}
+.li{
+    color: black;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    /* transition-delay: 2s; */
+}
+    #li:hover{
+        text-decoration: underline black;
+    }
+.li1{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.li2{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    margin-top: 30px;
+    align-items: center;
+}
+.logo{
+    width: 28px;
+    height: 28px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.slogansection{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-top: 100px; 
+}
+.slogan{
+    font-size: 28px;
+    letter-spacing: 9px;
+    text-align: left;
+    padding: 10px;
+}
+.sloganp{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 40px;
+    padding: 10px;
+    width: 500px; 
+}
+.slogansection-2{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-top: 150px
+}
+.sloganp-2{
+    font-size: 22px;
+    text-align: left;
+    margin-top: 40px;
+    padding: 10px;
+    line-height: 40px;
+    width: 420px;
+}
+.desingersection{
+    width: 1260px;
+    height: 923px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+.desingersectionwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapperbox{
+    text-align: center;
+    width: 199px;
+    height:278px ;
+    align-content: center;
+}
+.desingerphoto{
+    width: 199px;
+    height: 195px;
+    border-radius: 50%;
+}
+.desingerspan1{
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+}
+.desingerspan{
+    text-align: center;
+    line-height: 10px;
+    font-size: 14px;
+    width: 190px;
+    padding: 10px;
+    display: block;
+}
